@@ -29,3 +29,5 @@ For automation, i.e. for periodical running of the python models so as to ensure
 
 # Splash Screen & App Official Logo
 <img src="https://user-images.githubusercontent.com/50980605/84104867-44f2b700-aa34-11ea-87a4-8990e2a99e7f.jpeg" class="center" width="400" height="900">
+# Welcome Screen
+<img src="https://user-images.githubusercontent.com/50980605/84104849-40c69980-aa34-11ea-85b7-380bcc25c770.jpeg" class="center" width="400" height="900">
