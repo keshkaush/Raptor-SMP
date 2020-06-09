@@ -2,9 +2,10 @@
 SMP-20(A Stock Market Analysis Project -College Minor Project )
 The major components of this project’s architecture include- 
 1. Historical data analysis deep learning model.
-2. Sentimental analysis machine learning model 3. 
-Firebase to store the output of the model 4. 
-A computer server running the models periodically 5. User interface using flutter
+2. Sentimental analysis machine learning model 
+3. Firebase to store the output of the model
+4. A computer server running the models periodically 
+5. User interface using flutter
 
 FRONT-END: FLUTTER(SMP-20)
 
