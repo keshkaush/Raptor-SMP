@@ -27,4 +27,4 @@ BACK-END: PYTHON(SMP-20)
 This included creation of one model based on Long Short-Term memory Deep learning for historical data analysis and future price prediction and one model based on Multinomial Naive Bayes for Sentimental Analysis. Both the models were created on Jupyter notebook using Python 3.7
 For automation, i.e. for periodical running of the python models so as to ensure an updated output is displayed everytime, the python scripts are made to run every 15 minutes everyday on a computer using task scheduler. 
 
-<img src="https://user-images.githubusercontent.com/50980605/84104867-44f2b700-aa34-11ea-87a4-8990e2a99e7f.jpeg">
+<img src="https://user-images.githubusercontent.com/50980605/84104867-44f2b700-aa34-11ea-87a4-8990e2a99e7f.jpeg" class="center" width="400" height="400">
