@@ -64,7 +64,7 @@ class _WelcomeState extends State<Welcome> with SingleTickerProviderStateMixin {
                 ),
                 Center(
                   child: Text(
-                    'SMP-20',
+                    'RAPTOR-SMP',
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 40,

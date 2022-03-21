@@ -1,7 +1,6 @@
 class Assets {
-  static const  String SIDDHARTH="assets/images/members/siddharth.png";
-  static const  String AAKASH="assets/images/members/aakash.png";
-  static const  String MEGHNA="assets/images/members/meghna.png";
-  static const  String SUBHASHREE="assets/images/members/subhashree.png";
-
+  static const  String KESHAV="assets/images/members/Keshav.jpg";
+  static const  String DIVYANSHU="assets/images/members/Divyanshu.jpeg";
+  static const  String SHIVA="assets/images/members/Shiva.jpeg";
+  static const  String COMMENT="assets/images/comment_data.png";
 }

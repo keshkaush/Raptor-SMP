@@ -97,7 +97,7 @@ class _OverviewState extends State<DatabaseScreen> with SingleTickerProviderStat
                   offset: virusBounce.value,
                   child: Image(
                     alignment: Alignment.centerRight,
-                    image: AssetImage("assets/images/kiit.png"),
+                    image: AssetImage("assets/images/cu.png"),
                     height: screenAwareSize(250, context),
                     width: screenAwareSize(250, context),
                   ),
@@ -107,7 +107,7 @@ class _OverviewState extends State<DatabaseScreen> with SingleTickerProviderStat
                 ),
                 Center(
                   child: Text(
-                    'Undertaking\nBy\nDr.Mainak Bandyopadhyay(KIIT)',
+                    'Undertaking\nBy\nMr. Yogiraj Bhale(AIT-CU)',
                     style: TextStyle(
                       color: Colors.grey[800],
                       fontSize: 20,

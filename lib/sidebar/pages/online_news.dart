@@ -29,7 +29,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> { 
  
 
-  final String url="https://newsapi.org/v2/top-headlines?country=in&apiKey=bd154fff71364858be79083b11554ed8";
+  final String url="https://newsapi.org/v2/top-headlines?country=in&apiKey=e6b88a638f2644aea59b1068438d5758";
   List news;
   void initState(){
     super.initState();

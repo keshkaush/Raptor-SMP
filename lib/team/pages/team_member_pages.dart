@@ -27,15 +27,15 @@ class TeamMembersPage extends StatelessWidget {
           Expanded(
             flex: 10,
             child: ListView.separated(
+                separatorBuilder: (context, index) {
+                  return SizedBox(
+                    height: size_20,
+                  );
+                },
                 itemBuilder: (context, index) {
                   return MemberWidget(
                     member: members[index],
                     compactMode: false,
-                  );
-                },
-                separatorBuilder: (context, index) {
-                  return SizedBox(
-                    height: size_20,
                   );
                 },
                 itemCount: members.length),

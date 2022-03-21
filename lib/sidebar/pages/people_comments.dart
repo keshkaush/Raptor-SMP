@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:smp_app/navigation_bloc/navigation_bloc.dart';
+import 'package:smp_app/team/resources/assets.dart';
 import 'package:smp_app/ui/sceensize.dart';
 import 'dart:async';
 import 'dart:math';
@@ -73,7 +74,8 @@ class _PeopleCommentsState extends State<PeopleComments> {
           children: <Widget>[
             Container(
               //imageCache.clear(),
-              child: Image.network('https://storage.googleapis.com/smp-app-275216.appspot.com/pnn.png?Expires=1616090295&GoogleAccessId=firebase-adminsdk-pume9%40smp-app-275216.iam.gserviceaccount.com&Signature=SynMwLu3MpyDUbSlogE3uDJJqaBjm8ihhqwoyr391brtm%2Fedq69PgVz1jKQUgBPbCuZhoglZ64OIbQhd2BPJq4YEZNSEejIkBB3UkstSrhiG8z4pBmkWjwLl263irmb%2BdezlPY28IwveEaDKNZcviwqO0OgW2le1EQRDhcttypykM6B8SFnQuldP6msxPAhie%2BJ9N5MQFSr6GPkEJ57fgarQ2ZV96Zuqf2X%2F8%2BmqqFpRR7OZJBCtexldN%2FRqR0MKyray%2FG%2BvMfQaamVBNam0CfAPJYanp%2FgP%2BR%2BuwMU43iD3ynHedbcgKB%2Fc8lxSzPcrYWzfSJ6vnoTXu5z15j7Kfg%3D%3D',key: ValueKey(new Random().nextInt(100)),),
+                child: Image.asset(Assets.COMMENT),
+//              child: Image.network('https://storage.googleapis.com/smp-app-275216.appspot.com/pnn.png?Expires=1616090295&GoogleAccessId=firebase-adminsdk-pume9%40smp-app-275216.iam.gserviceaccount.com&Signature=SynMwLu3MpyDUbSlogE3uDJJqaBjm8ihhqwoyr391brtm%2Fedq69PgVz1jKQUgBPbCuZhoglZ64OIbQhd2BPJq4YEZNSEejIkBB3UkstSrhiG8z4pBmkWjwLl263irmb%2BdezlPY28IwveEaDKNZcviwqO0OgW2le1EQRDhcttypykM6B8SFnQuldP6msxPAhie%2BJ9N5MQFSr6GPkEJ57fgarQ2ZV96Zuqf2X%2F8%2BmqqFpRR7OZJBCtexldN%2FRqR0MKyray%2FG%2BvMfQaamVBNam0CfAPJYanp%2FgP%2BR%2BuwMU43iD3ynHedbcgKB%2Fc8lxSzPcrYWzfSJ6vnoTXu5z15j7Kfg%3D%3D',key: ValueKey(new Random().nextInt(100)),),
                 height: screenAwareSize(250, context),
                 width: screenAwareSize(250, context),
               ),
